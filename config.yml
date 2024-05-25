@@ -1,0 +1,18 @@
+debug: false
+uuid: a94a0fa9-1a0f-45ae-93d4-8e5a9d2f67d5
+token_id: CZSWwyUzaLhRHIyM
+token: JsEiOTEUlX8usq6bYrM32PdLl4zsSufRPQaX57SRxKpsmcTLQRgxAsKuJVOFuEoI
+api:
+  host: 0.0.0.0
+  port: 63042
+  ssl:
+    enabled: false
+    cert: /etc/letsencrypt/live/147.185.221.19/fullchain.pem
+    key: /etc/letsencrypt/live/147.185.221.19/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://panel.versevm.online
